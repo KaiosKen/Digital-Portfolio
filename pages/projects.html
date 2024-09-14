@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="nord">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Robel Abraham</title>
+  <link href="/src/output.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/daisyui@2.3.0/dist/full.js"></script>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16 (1)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_package_v0.16 (1)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_package_v0.16 (1)/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_package_v0.16 (1)/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="bg-gray-100 ">
+  <!-- Include the header dynamically -->
+  <div data-include="/src/navbar.html"></div>
+  <!-- Projects Section -->
+  <section class="py-16 bg-base-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8">Highlighted Projects</h2>
+
+      <!-- Detailed Projects Section -->
+  <section class="py-16 bg-base-100">
+    <div class="container mx-auto">
+
+      <!-- Project 1 -->
+      <div class="project mb-16 p-6 bg-white shadow-lg rounded-lg">
+        <div class="flex flex-col lg:flex-row">
+          <img src="project1-image.jpg" alt="Project One Screenshot" class="w-full lg:w-1/2 rounded-lg shadow-md mb-6 lg:mb-0">
+          <div class="lg:ml-12">
+            <h2 class="text-3xl font-bold mb-4">Project One: Task Manager App</h2>
+            <p class="mb-4 text-lg">
+              This is a full-featured task management application that helps users organize their work, track deadlines, and collaborate with team members in real-time. Built with React for the frontend and Node.js/Express for the backend, it uses WebSocket technology to enable real-time updates across multiple users. 
+            </p>
+            <h3 class="text-2xl font-bold mb-2">Key Features:</h3>
+            <ul class="list-disc list-inside mb-4 text-lg">
+              <li>Real-time task updates with WebSocket</li>
+              <li>Responsive design for mobile and desktop</li>
+              <li>Role-based access control and authentication</li>
+              <li>Task sorting, filtering, and tagging system</li>
+            </ul>
+            <p class="mb-4 text-lg">
+              The backend is connected to a MongoDB database, offering fast and scalable storage for user data. The application includes JWT-based authentication to ensure secure user sessions and provides an admin dashboard for managing users and tasks.
+            </p>
+            <p class="mb-4"><strong>Technologies Used:</strong> React, Node.js, MongoDB, Express, WebSocket, JWT</p>
+            <a href="https://github.com" class="btn btn-primary mt-4">View on GitHub</a>
+            <a href="https://your-live-project.com" class="btn btn-outline mt-4">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project mb-16 p-6 bg-white shadow-lg rounded-lg">
+        <div class="flex flex-col lg:flex-row">
+          <img src="project2-image.jpg" alt="Project Two Screenshot" class="w-full lg:w-1/2 rounded-lg shadow-md mb-6 lg:mb-0">
+          <div class="lg:ml-12">
+            <h2 class="text-3xl font-bold mb-4">Project Two: Housing Price Predictor</h2>
+            <p class="mb-4 text-lg">
+              A machine learning model that predicts housing prices based on historical data and various features such as location, number of bedrooms, and square footage. The model was trained using Python and Scikit-Learn, leveraging algorithms like linear regression and random forest.
+            </p>
+            <h3 class="text-2xl font-bold mb-2">Key Features:</h3>
+            <ul class="list-disc list-inside mb-4 text-lg">
+              <li>Feature engineering and data pre-processing</li>
+              <li>Model evaluation using cross-validation and hyperparameter tuning</li>
+              <li>Real-time predictions via a Flask API</li>
+              <li>Interactive visualizations of prediction results</li>
+            </ul>
+            <p class="mb-4 text-lg">
+              The model is deployed as a REST API using Flask, and it is integrated with a user-friendly frontend where users can input their housing data and receive instant price predictions. Data visualization was done using Matplotlib and Seaborn.
+            </p>
+            <p class="mb-4"><strong>Technologies Used:</strong> Python, Scikit-Learn, Flask, Pandas, Matplotlib</p>
+            <a href="https://github.com" class="btn btn-primary mt-4">View on GitHub</a>
+            <a href="https://your-live-project.com" class="btn btn-outline mt-4">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project mb-16 p-6 bg-white shadow-lg rounded-lg">
+        <div class="flex flex-col lg:flex-row">
+          <img src="/res/Checkers-Image.png" alt="Project Three Screenshot" class="w-full lg:w-1/2 rounded-lg shadow-md mb-6 lg:mb-0">
+          <div class="lg:ml-12">
+            <h2 class="text-3xl font-bold mb-4">Project Three: Checkers</h2>
+            <p class="mb-4 text-lg">
+              A classic game of Checkers built with HTML, CSS, and JavaScript. The game features a simple and intuitive interface, allowing players to make moves by clicking on the board squares. It includes a two-player mode where users can play against each other on the same device.
+            </p>
+            <h3 class="text-2xl font-bold mb-2">Key Features:</h3>
+            <ul class="list-disc list-inside mb-4 text-lg">
+              <li>Responsive Clicks with capture and move animations.</li>
+              <li>Simplistic design means it can be played on any device</li>
+              <li>Web game, so it can be played without any downloads</li>
+              <li>Lightweight and performant with no images, everything generated with the HTML Canvas</li>
+            </ul>
+            <p class="mb-4 text-lg">
+                The game is made with pure HTML, CSS, and Javascript as a way of showing off my skills in a fun and interactive way. The game is also open source and available on my GitHub.
+            </p>
+            <p class="mb-4"><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com" class="btn btn-primary mt-4">View on GitHub</a>
+            <a href="https://kaiosken.github.io/Checkers/" class="btn btn-outline mt-4">Live Demo</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="project mb-16 p-6 bg-white shadow-lg rounded-lg">
+        <div class="flex flex-col lg:flex-row">
+          <img src="/res/Hexagon-Minesweeper-Image.png" alt="Project Three Screenshot" class="w-full lg:w-1/2 rounded-lg shadow-md mb-6 lg:mb-0">
+          <div class="lg:ml-12">
+            <h2 class="text-3xl font-bold mb-4">Project Four: Hexagon Minesweeper</h2>
+            <p class="mb-4 text-lg">
+                A unique twist on the classic Minesweeper game, this version features a hexagonal grid layout that challenges players to think differently about their moves. The game is built with HTML, CSS, and JavaScript, utilizing the HTML Canvas for rendering graphics and animations.
+            </p>
+            <h3 class="text-2xl font-bold mb-2">Key Features:</h3>
+            <ul class="list-disc list-inside mb-4 text-lg">
+              <li>Fun twist on the popular Window's game, which makes you rethink how you play</li>
+              <li>Responsive design optimized for all devices</li>
+              <li>First Hexagon Minesweeper with a CSP that allows for always solvable boards!</li>
+              <li>Lightweight and performant with no images, everything generated with the HTML Canvas</li>
+            </ul>
+            <p class="mb-4 text-lg">
+                The game is made with pure HTML, CSS, and Javascript as a way of showing off my skills in a fun and interactive way. The game is also open source and available on my GitHub.
+            </p>
+            <p class="mb-4"><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com" class="btn btn-primary mt-4">View on GitHub</a>
+            <a href="https://kaiosken.github.io/Hexagon-Minesweeper/index.html" class="btn btn-outline mt-4">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-base-200">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8">Get in Touch</h2>
+      <p class="mb-4">Feel free to reach out via email or LinkedIn for more details about these projects.</p>
+      <div class="flex justify-center space-x-4">
+        <a href="mailto:youremail@example.com" class="btn btn-primary">Email Me</a>
+        <a href="https://linkedin.com/in/yourprofile" class="btn btn-outline">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+    <!-- Include the footer dynamically -->
+    <div data-include="/src/footer.html"></div>
+
+    <!-- Include external JavaScript file -->
+    <script src="/src/template.js"></script>
+</body>
+</html>
