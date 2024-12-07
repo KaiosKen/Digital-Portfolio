@@ -19,3 +19,15 @@
 .navbar {
     z-index: 1000;
 }
+
+.tab:hover {
+  background-color: #f7f7f7; /* Light hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tab-icon {
+  width: 24px; /* Set a fixed width */
+  height: 24px; /* Set a fixed height */
+  max-width: 100%; /* Prevent scaling beyond the container */
+  max-height: 100%; /* Prevent scaling beyond the container */
+}
